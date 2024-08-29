@@ -18,101 +18,332 @@
   </head>
   <body>
     <!-- Navbar Start -->
-    <section id="navbar">
-      <nav class="navbar fixed-top" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Re:Light</a>
-          <div class="navbar-nav-link d-lg-flex d-none">
-            <a class="nav-link active" aria-current="page" href="#">BERANDA</a>
-            <a class="nav-link" href="#">LAYANAN</a>
-            <a class="nav-link" href="#">TENTANG</a>
-            <a class="nav-link" href="#">KONTAK</a>
-          </div>
-          <button
-            class="navbar-toggler d-lg-none"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Re:Light
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >BERANDA</a
-                  >
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-              </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand font-greatvibes fs-4" href="#">Re:Light</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="ms-auto navbar-nav font-mulish">
+            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            <a class="nav-link" href="#">Layanan</a>
+            <a class="nav-link" href="#">Tentang</a>
+            <a class="nav-link" href="#">Kontak</a>
           </div>
         </div>
-      </nav>
-    </section>
+      </div>
+    </nav>
     <!-- Navbar End -->
 
     <!-- Hero Start -->
-    <section class="hero">
-      <div class="hero-content text-center">
-        <h1 class="hero-title p-5">
-          Wujudkan Pernikahan Impian Anda Dengan Re:Light
+    <section
+      class="hero-section d-grid justify-content-center align-content-center"
+      id="hero"
+    >
+      <div
+        class="container-md hero-content d-grid justify-content-center align-content-center gap-3 gap-md-5"
+      >
+        <h1 class="text-1xl font-cinzel text-center text-white">
+          Wujudkan Pernikahan Impian Anda dengan Re:light
         </h1>
-        <div class="hero-cta gap-3 gap-md-5 d-flex justify-content-center">
-          <button type="button" class="btn btn-outline-light">
+        <div class="flex justify-content-center text-center">
+          <button class="btn btn-outline-light mx-lg-5 mx-md-3 mx-2 rounded-0">
             Buat Rencana
           </button>
-          <button type="button" class="btn btn-outline-light">
+          <button class="btn btn-outline-light mx-lg-5 mx-md-3 mx-2 rounded-0">
             Selengkapnya
           </button>
         </div>
       </div>
     </section>
     <!-- Hero End -->
+
+    <!-- Interest Start -->
+    <section
+      class="interest-section container d-grid px-4 py-5 justify-content-center align-items-center"
+      id="interest"
+    >
+      <div class="interest-content d-grid gap-4 gap-md-5">
+        <h2 class="text-2xl font-cinzel text-center">
+          Pernikahan yang Sempurna Dimulai dari Sini
+        </h2>
+        <div>
+          <div class="row gap-4">
+            <div class="col-md interest-image"></div>
+            <p class="col-md text-5xl font-poppins">
+              Di Re:Light, kami memahami bahwa setiap pernikahan adalah unik dan
+              istimewa. Dengan pengalaman bertahun-tahun, kami berkomitmen untuk
+              mewujudkan hari besar Anda dengan penuh gaya dan keindahan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Interest End -->
+
+    <!-- Service Start -->
+    <section class="service-section py-5" id="service">
+      <div class="container-lg d-grid gap-5">
+        <div class="d-grid gap-2 gap-md-0">
+          <h2 class="font-cinzel text-2xl text-center">
+            Mengapa Memilih Re:Light?
+          </h2>
+          <span class="font-greatvibes text-4xl text-center">Our Service</span>
+        </div>
+        <div class="d-grid gap-5">
+          <div class="row gap-3">
+            <div class="col service-image pill-end me-5 me-md-0" id="service1">
+              <img
+                src="assets/img/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg"
+                alt="planning"
+              />
+            </div>
+            <div
+              class="col-md align-content-md-center align-content-lg-start p-2"
+            >
+              <h3 class="font-cinzel text-3xl">
+                Rencana Pernikahan yang Disesuaikan
+              </h3>
+              <p class="font-poppins">
+                Kami bekerja sama dengan Anda untuk merancang pernikahan yang
+                mencerminkan gaya dan kepribadian Anda.
+              </p>
+            </div>
+          </div>
+          <div class="row gap-3">
+            <div
+              class="col-md order-2 order-md-1 align-content-md-center align-content-lg-start p-2"
+            >
+              <h3 class="font-cinzel text-3xl">Dekorasi yang Memukau</h3>
+              <p class="font-poppins">
+                Dari tema tradisional hingga modern, tim kami akan menciptakan
+                dekorasi yang menakjubkan dan penuh inspirasi.
+              </p>
+            </div>
+            <div
+              class="col service-image order-1 order-md-2 pill-start ms-5 ms-md-0"
+              id="service2"
+            >
+              <img src="assets/img/wedding-place.jpg" alt="wedding place" />
+            </div>
+          </div>
+          <div class="row gap-3">
+            <div class="col service-image pill-end me-5 me-md-0" id="service3">
+              <img
+                src="assets/img/nils-stahl-BCkLxilDvJU-unsplash.jpg"
+                alt="decoration"
+              />
+            </div>
+            <div
+              class="col-md align-content-md-center align-content-lg-start p-2"
+            >
+              <h3 class="font-cinzel text-3xl">Layanan Lengkap</h3>
+              <p class="font-poppins">
+                Kami menyediakan layanan lengkap mulai dari venue, katering,
+                fotografi, hingga hiburan untuk memastikan setiap detail
+                sempurna.
+              </p>
+            </div>
+          </div>
+          <div class="row gap-3">
+            <div
+              class="col-md order-2 order-md-1 align-content-md-center align-content-lg-start p-2"
+            >
+              <h3 class="font-cinzel text-3xl">Pengalaman tak Terlupakan</h3>
+              <p class="font-poppins">
+                Kami memastikan setiap momen pernikahan Anda menjadi kenangan
+                yang tak terlupakan bagi Anda dan tamu Anda.
+              </p>
+            </div>
+            <div
+              class="col service-image order-1 order-md-2 pill-start ms-5 ms-md-0"
+              id="service4"
+            >
+              <img
+                src="assets/img/sandy-millar-cQ-66Evaf5g-unsplash.jpg"
+                alt="memory"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service End -->
+
+    <!-- Testimonials Start -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container d-grid gap-5">
+        <div>
+          <h2 class="font-cinzel text-2xl text-center">
+            Apa kata pengantin kami?
+          </h2>
+          <p class="text-center font-greatvibes text-3xl">Testimonials</p>
+        </div>
+        <div class="testimonials-content">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide testimonials-width"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner placeholder-wave">
+              <div class="carousel-item active">
+                <p class="font-poppins text-center">
+                  "Terima kasih Re:Light telah mewujudkan pernikahan impian
+                  kami. Semua detail sangat sempurna dan kami benar-benar merasa
+                  istimewa."
+                </p>
+                <p class="font-greatvibes fw-medium text-center text-5xl">
+                  - Diana & Andi, Jakarta
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="font-poppins text-center">
+                  "Kami sangat terkesan dengan profesionalisme dan kreativitas
+                  tim Re:Light. Pernikahan kami berjalan lancar dan penuh
+                  kenangan indah."
+                </p>
+                <p class="font-greatvibes fw-medium text-center text-5xl">
+                  - Rani & Budi, Bandung
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="font-poppins text-center">
+                  Layanan yang luar biasa! Semua tamu kami sangat terkesan
+                  dengan dekorasi dan susunan acara. Sangat direkomendasikan!
+                </p>
+                <p class="font-greatvibes fw-medium text-center text-5xl">
+                  - Tika & Rahmat, Surabaya
+                </p>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials End -->
+
+    <!-- Action Start -->
+    <section class="action-section" id="action">
+      <div class="action-content container d-grid gap-5">
+        <h2 class="text-2xl font-cinzel text-white text-center">
+          Wujudkan Pernikahan Impian Anda Bersama Kami!
+        </h2>
+        <div class="d-flex justify-content-center w-100">
+          <button class="btn btn-outline-light rounded-0">
+            Hubungi Kami Sekarang
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Action End -->
+
+    <!-- Footer Start -->
+    <section class="footer-section" id="footer">
+      <div class="footer-content container p-5">
+        <div class="row row-cols-md-3 row-cols-1 gap-4 gap-lg-0">
+          <div class="col" id="social-media-footer">
+            <div class="row row-cols-1">
+              <div class="col">
+                <h1 class="font-cinzel text-4xl text-center">Ikuti Kami</h1>
+              </div>
+              <div class="col text-center">
+                <img src="assets/icon/icons8-facebook.svg" alt="facebook" />
+                <img src="assets/icon/icons8-instagram.svg" alt="instagram" />
+                <img src="assets/icon/icons8-twitterx.svg" alt="twitter-x" />
+              </div>
+              <div class="col text-center">
+                <p class="font-greatvibes">relight@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center border-1 py-4 py-lg-0" id="footer-logo">
+            <a class="navbar-brand font-greatvibes fs-1" href="#">Re:Light</a>
+          </div>
+          <div class="col" id="subscribe-footer">
+            <div class="row row-cols-1">
+              <div class="col text-center">
+                <h1 class="font-cinzel text-4xl">Surat Berita</h1>
+              </div>
+              <div class="col text-center">
+                <p class="font-greatvibes">Ikuti berita terbaru kami.</p>
+              </div>
+              <div class="col text-center">
+                <form action="#" class="justify-content-center d-flex">
+                  <input
+                    class="form-control"
+                    type="email"
+                    id="user-email"
+                    name="user-email"
+                    placeholder="E-MAIL"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright w-full my-0 py-3 py-lg-1">
+        <p class="text-center font-cinzel container mb-0">
+          ©2024 relight, All Rights Reserved
+        </p>
+      </div>
+    </section>
+    <!-- Footer End -->
 
     <!-- Link JS Bootstrap -->
     <script
