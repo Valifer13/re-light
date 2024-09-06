@@ -1,5 +1,0 @@
-# A library file for copyright image
-
-wedding-couple-1 = Min An from pexels.com
-wedding-dresses = maya_7966 from pixabay.com
-wedding-place = Jeremy Wong from pexels.com
